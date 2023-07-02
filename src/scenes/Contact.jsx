@@ -168,13 +168,10 @@ const Contact = () => {
         Enviar
       </button>
     </div>
-
-   
-
-    {showThankYouMessage && !noAttendanceMsgVisible && (
+ {showThankYouMessage && !noAttendanceMsgVisible && (
       <div className="banner">
         ¡Gracias por tus buenos deseos! ¡Te espero, no faltes!
-        <a href="#navbar">Volver al navbar</a>
+        
       </div>
     )}
   </div>
